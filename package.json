@@ -30,6 +30,10 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "volta": {
+    "node": "16.20.2",
+    "yarn": "1.22.19"
+  },
   "browserslist": {
     "production": [
       ">0.2%",

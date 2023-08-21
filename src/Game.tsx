@@ -18,10 +18,14 @@ export const gameConfig = {
 
 const controlsMap: Record<string, string> = {
     // keyboard key then xbox controller button
-    1: "D A",
-    2: "F B",
-    3: "J X",
-    4: "K Y",
+    1: "A A",
+    2: "S B",
+    3: "D X",
+    4: "F Y",
+    5: "G up",
+    6: "H down",
+    7: "J left",
+    8: "K right"
 };
 
 const getRandomTilePos = () => _.random(gameConfig.tilesQuantity.width - 1);
@@ -245,14 +249,13 @@ const Game: React.FC = () => {
         <Button
             className={classes.backButton}
             hidden={score !== 0}
-            component={Link}
-            to="/"
+            href="/"
             color="primary"
         // doesn't work properly with startIcon for some reason
         >
             <ArrowBackIos />Back
         </Button>
-        <Grid container justify="center">
+        <Grid container justifyContent="center">
             <canvas
                 ref={canvasRef}
                 className={classes.canvas}
