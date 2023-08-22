@@ -2,15 +2,18 @@
   "name": "piano-tiles",
   "version": "0.0.0-development",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://battlesquid.github.io/piano-tiles",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
     "contro": "^2.2.0",
+    "gh-pages": "^6.0.0",
     "lodash": "^4.17.21",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
