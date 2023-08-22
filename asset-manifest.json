@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/piano-tiles/static/css/main.183c27d9.chunk.css",
+    "main.js": "/piano-tiles/static/js/main.8e54126c.chunk.js",
+    "main.js.map": "/piano-tiles/static/js/main.8e54126c.chunk.js.map",
+    "runtime-main.js": "/piano-tiles/static/js/runtime-main.0dcdbd8e.js",
+    "runtime-main.js.map": "/piano-tiles/static/js/runtime-main.0dcdbd8e.js.map",
+    "static/js/2.fe700727.chunk.js": "/piano-tiles/static/js/2.fe700727.chunk.js",
+    "static/js/2.fe700727.chunk.js.map": "/piano-tiles/static/js/2.fe700727.chunk.js.map",
+    "index.html": "/piano-tiles/index.html",
+    "static/css/main.183c27d9.chunk.css.map": "/piano-tiles/static/css/main.183c27d9.chunk.css.map",
+    "static/js/2.fe700727.chunk.js.LICENSE.txt": "/piano-tiles/static/js/2.fe700727.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0dcdbd8e.js",
+    "static/js/2.fe700727.chunk.js",
+    "static/css/main.183c27d9.chunk.css",
+    "static/js/main.8e54126c.chunk.js"
+  ]
+}
